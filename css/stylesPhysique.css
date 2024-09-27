@@ -1,0 +1,177 @@
+body {
+    background-image: url('../imgs/backgroudPhysicPageB.png') ;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    background-image: linear-gradient(to right, #9b309c, #F54BAB, #f585a5);
+    /* ce passage à été fais avec une ia : il permet d'obtenir un texte dans une couleur dégradée*/
+    color: transparent; /* Cette ligne n'affecte pas le dégradé mais est nécessaire si background-clip n'est pas supporté */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Pour les navigateurs WebKit comme Safari */
+    display: inline-block; /* Nécessaire pour que background-clip fonctionne */
+    /* text-shadow: 0px 0px 15px black */
+}
+
+h2 {
+    color:#f73b93;
+    text-shadow: 0px 0px 15px black;
+    font-size: 50px;
+}
+h3 {
+    color:#aa4375;
+    text-shadow: 0px 0px 15px black;
+    font-size: 40px;
+}
+h4 {
+    color:#ff63b1;
+    text-shadow: 0px 0px 15px black;
+    font-size: 30px;
+}
+
+
+li {
+    list-style-type: none;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    padding: 1rem;
+    text-align: center;
+}
+footer {
+    background-color: #22010d;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 90%;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+}
+
+form button {
+    background-color: #6D99F2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form input, form textarea {
+    border: 1px solid #ccc;
+}
+
+.sommaire, .rubriques {
+    padding: 2rem;
+    border-radius: 15px;
+    margin: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sommaire:nth-child(1) {
+    background-color: #8C0343;
+}
+.sommaire:nth-child(2) {
+    background-color: #400118;
+}
+.sommaire:nth-child(3) {
+    background-color: #59024B;
+}
+
+.rubriques:nth-child(4){
+    background-color: #8c0343b7;
+}
+.rubriques:nth-child(5){
+    background-color: #400118b7;
+} 
+.rubriques:nth-child(6){
+    background-color: #59024ab6;
+}  
+
+.rubriques {
+    color: #ccc;
+}
+ 
+
+.chapitre {
+    background-color: #40011850;
+    background-image: linear-gradient(#00000077, #ffffff75);
+    padding:20px;
+    border-radius: 50px;
+}
+
+img, iframe { 
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+#retourAcceuil {
+    position: fixed;
+    top:5px;
+    left:10px;
+    border-radius: 5px;
+    background-color: #c2849b;
+}
+
+#heisenberg_img{
+        width: 10%;
+        height: auto;
+}
+
+
+#tableauDecryptage {
+    background-color: #021826;
+    width : 50%;
+    text-align: center;
+}
+
+.c1{
+    background-color: #beeb82;
+    color: #202914;
+}
+.c2{
+    background-color: #82eba7;
+    color: #1b3022;
+}
+.c3{
+    background-color: #0CF25D;
+    color: #033113;
+}
+.c4{
+    background-color: #038C3E;
+    color: rgb(214, 255, 234);
+}
+.c5{
+    background-color: #02735E ;
+    color: #cbf3ec;
+}
+.c6{
+    background-color: #025951;
+    color: #b6fff8;
+}
+.c7{
+    background-color: #034159;
+    color: #b9dae7;
+}

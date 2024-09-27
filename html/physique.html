@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    
+    
+    <title>Quantique : Physique</title>
+    <link rel="stylesheet" href="../css/stylesPhysique.css">
+    <link rel="icon" href="../imgs/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <button id="retourAcceuil" onclick="location.href='./pageAcceuil.html'">revenir à la page d'acceuil</button>
+        <h1>Physique Quantique</h1>
+        <nav>
+           <ul>
+                <li><a href="#comprendre">Les principes de base</a></li>
+                <li><a href="#theories">Les théories les plus connues</a></li>
+                <li><a href="#enjeux">Son utilité</a></li>
+                <!-- <li><a href="#moyenPhysique">Quelques éléments plus techniques</a></li>-->
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+
+        
+        <div class="sommaire">
+            <h2>Comprendre la phisique quantique</h2>
+            <ul>
+                <li><a href="#superposition">Le principe de superposition</a></li>
+                <li><a href="#dualite">La dualité onde-particule</a></li>
+                <li><a href="#effondrement">L'effondrement de la fonction d'onde</a></li>
+                <li><a href="#quantification">Quantification de l'énergie</a></li>
+                <li><a href="#intrication">L'intrication</a></li>
+                <li><a href="#heisenberg">L'incertitude de Heisenberg</a></li>
+                <li><a href="#decoherence">La décohérence quantique</a></li>
+            </ul>
+        </div>
+        
+        <div class="sommaire">
+            <h2>Deux théories importantes</h2>
+            <ul>
+                <li><a href="cordes">La théorie des cordes</a></li>
+                <li><a href="boucles">La gravité quantique a boucles</a></li>
+            </ul>
+        </div>
+
+        <div class="sommaire">
+            <h2>A quoi ça sert ?</h2>
+                <ul>
+                    <li><a href="#comprehensionFondamentale">Compréhension Fondamentale de la Matière et de l'Énergie</a></li>
+                    <li><a href="#techno">Technologies de l'Information Quantique et Ordinateurs Quantiques</a></li>
+                    <li><a href="#crypto">Cryptographie Quantique</a></li>
+                    <li><a href="#imagerie">Imagerie Médicale et Mesures de Haute Précision</a></li>
+                    <li><a href="#nanotech">Nanotechnologie</a></li>
+                    <li><a href="#energie">Énergie et Matériaux</a></li>
+                    <li><a href="#chimie">Chimie Quantique</a></li>
+                    <li><a href="#univers">Compréhension de l'Univers</a></li>
+                </ul>
+            </div>
+        <!-- <div class="sommaire">
+            <h2>Pour les crack</h2>
+            <li>Non-localité quantique</li>
+            <li>Décohérence quantique</li>
+            <li>Théorie de la mesure</li>
+            <li>Théorie des champs quantiques</li>
+            <li>Gravité quantique</li>
+            <li>Information quantique</li>
+            <li>États liés</li>
+            <li>Condensats de Bose-Einstein</li>
+            <li>Énergie du vide et fluctuations quantiques</li>
+        </div>-->
+
+        <div class="rubriques" id="comprendre">
+            <h2>Essayons de comprendre comment ça fonctionne</h2>
+            <p class="intro">
+                la phisique quantique c'est l'étudie de comment les particules qui composent l'atome et la lumière se comportent à une très petite échelle. <br>
+                Voici quelques principes de base de la physique quantique :
+            </p>
+            <div class="chapitre" id="superposition">
+                <h3>Le principe de superposition :</h3>
+                <P>
+                    La superposition est un autre concept fondamental en physique quantique qui peut paraître un peu étrange au premier abord. Voici une explication simplifiée :
+                    Une particule quantique peut exister dans une combinaison d'états différents en même temps. 
+                    Ce n'est que lorsqu'une observation ou une mesure est effectuée que la particule "choisit" un des états possibles. 
+                    Cela est souvent représenté par le célèbre exemple du chat de Schrödinger, 
+                    qui est à la fois vivant et mort jusqu'à ce qu'on ouvre la boîte.
+                </P>
+
+                <h4>États Multiples Simultanés</h4>
+                <p>En physique classique, un objet peut se trouver dans un état à la fois 
+                    - par exemple, une pièce de monnaie est soit face, soit pile. 
+                    En physique quantique, en revanche, les particules comme les électrons peuvent être dans plusieurs états à la fois. 
+                    C'est ce qu'on appelle la superposition.</p>
+                
+                <h4>Exemple du Chat de Schrödinger</h4>
+                <p>Un exemple célèbre pour expliquer la superposition est l'expérience de pensée du chat de Schrödinger. 
+                    Imaginez un chat enfermé dans une boîte avec un mécanisme qui a une chance sur deux de libérer du poison. 
+                    En physique classique, le chat est soit vivant, soit mort. Mais en physique quantique, tant que la boîte n'est pas ouverte et que l'observation n'est pas faite, 
+                    le chat est considéré comme étant à la fois vivant et mort. Ce n'est qu'au moment de l'observation que le chat "choisit" un état.</p>
+                
+                <h4>Observation et Effondrement de la Fonction d'Onde</h4>
+                <p>La superposition dure tant que la particule n'est pas observée. Lorsqu'une observation est faite, 
+                    la particule "choisit" un des états possibles dans lesquels elle pourrait être, ce qu'on appelle l'effondrement de la fonction d'onde. 
+                    Cela signifie que la réalité quantique est déterminée en partie par l'acte d'observation.</p>
+                <img src="../imgs/Schrodingers_cat.svg" alt=" image représentant le chat de schrodinger, dans la boite, le chat est vivant et mort à la fois">
+                <iframe width="550" height="315" src="https://www.youtube.com/embed/Rj3jTw2DxXQ?si=eOQtS6HdZFyW6Ri3&amp;start=42&end=174" title="YouTube video principe de superposition"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                
+                <h4>Applications Pratiques</h4>
+                <p>La superposition est un principe clé derrière les technologies comme les ordinateurs quantiques. 
+                    Les qubits, qui sont les unités de base de l'information quantique, peuvent être dans une superposition d'états, 
+                    permettant des calculs beaucoup plus complexes et rapides que les bits classiques.</p>
+                <img src="../imgs/qubit.png" alt="image représetant un Qubit, un bit classique est soit 1 soit 0, le qubit est 1 et 0">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/uk2G8-vebm4?si=Rtf0HYCGPksxReFd" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div class="chapitre" id="dualite">
+                <h3>La dualité onde-particule :</h3>
+                <p>
+                    Les particules quantiques, comme les électrons et les photons, peuvent se comporter à la fois comme des particules et comme des ondes. 
+                    Par exemple, 
+                    la lumière peut se comporter comme une onde (ce qui explique pourquoi elle peut se diffracter ou interférer) 
+                    et comme une particule (ce qui explique pourquoi elle peut être comptée en photons).
+                </p>
+                <p>
+                    Imaginez que vous avez un objet très spécial qui peut se transformer. 
+                    Parfois, il ressemble à une balle (une particule), et parfois à une vague dans l'eau (une onde). 
+                    C'est ce que la dualité onde-particule nous dit sur certaines choses très petites, comme les électrons (qui font partie des atomes) 
+                    et les photons (qui sont de minuscules particules de lumière).
+                </p>
+                    <h4>Quand C'est une "Balle" (Particule)</h4>
+                    <p>Comme une balle, ces petites choses peuvent rebondir sur quelque chose ou être à un seul endroit à la fois. 
+                        Si vous lancez une balle contre un mur, elle frappe le mur en un seul point.</p>
+                
+                    <h4>Quand C'est une "Vague" (Onde)</h4>
+                    <p>Parfois, ces petites choses agissent comme des vagues. Si vous jetez une pierre dans un étang, les vagues se propagent partout. 
+                        Les vagues peuvent traverser des ouvertures et continuer à se propager de l'autre côté, ou même se croiser et créer des motifs.</p>
+                    <h4>Expérience Magique avec Deux Fentes</h4>
+                    <p>Imaginez maintenant qu'il y ait deux petites fentes, et vous lancez notre objet spécial à travers elles. 
+                        Si notre objet se comporte comme une balle, il devrait passer par l'une des fentes et frapper un mur derrière, créant deux marques. 
+                        Mais si notre objet se comporte comme une vague, il passe par les deux fentes en même temps, créant un motif de vagues qui s'entrecroisent de l'autre côté, 
+                        formant un motif de bandes.</p>
+                        <h4>La Surprise</h4>
+                    <p>La surprise est que ces toutes petites choses (comme les électrons ou les photons) peuvent se comporter à la fois comme des balles et comme des vagues. 
+                        Cela dépend de la façon dont vous les regardez ou essayez de les mesurer.</p>
+                <img src="../imgs/dualite_o_p.jpg" alt="image représentant l'experience de la fente de young">
+                <iframe width="550" height="315" src="https://www.youtube.com/embed/Rj3jTw2DxXQ?si=9498q8pXUaUZHlPo&amp;start=177&end=371" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/iRIJLMstfx4?si=DViQ3wU81ot1PGmI" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zPolTp0ddRg?si=YJ9FmtnUoJ-1sBRn" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Br7tE3OtbQo?si=eDZFxB6-gAFhI4to" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div class="chapitre" id="effondrement">
+                <h3>L'effondrement de la fonction d'onde :</h3>
+                <P>
+                    La fonction d'onde d'une particule décrit la probabilité de trouver cette particule dans un certain état. 
+                    L'acte de mesure provoque l'effondrement de cette fonction d'onde sur un seul état parmi toutes les possibilités.
+                </P>
+                <h4>Fonction d'Onde</h4>
+                <p>En physique quantique, une fonction d'onde décrit tous les états possibles (comme les positions, les vitesses, etc.) dans lesquels une particule pourrait être. 
+                    Tant que personne ne regarde, la particule n'est pas dans un état spécifique, mais plutôt dans une sorte de mélange de tous les états possibles.</p>
+                <iframe width="550" height="315" src="https://www.youtube.com/embed/Rj3jTw2DxXQ?si=XfuJ0IMxiUYkYM5w&amp;start=465&end=1094" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <h4>Observation</h4>
+                <p>Lorsqu'une observation est faite (comme mesurer la position d'une particule), la fonction d'onde "s'effondre" à un seul état. 
+                    Cela signifie que la particule choisit soudainement un état spécifique parmi toutes les possibilités.</p>
+                <h4>Exemple du Chat de Schrödinger</h4>
+                <p>Imaginez le fameux chat de Schrödinger, qui est à la fois vivant et mort tant que personne ne regarde dans la boîte. 
+                    Lorsque vous ouvrez la boîte et observez, la "fonction d'onde" du chat s'effondre, et il devient soit vivant, soit mort, mais pas les deux.</p>
+                <h4>Nature Probabiliste</h4>
+                <p>Avant l'observation, nous ne pouvons parler que des probabilités de trouver la particule dans un état particulier. 
+                    L'effondrement de la fonction d'onde change ces probabilités en une certitude - mais seulement au moment de l'observation.</p>
+                <iframe width="550" height="315" src="https://www.youtube.com/embed/Rj3jTw2DxXQ?si=fiaTk69aBmMipx3Q&amp;start=374&end=620" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <h4>Débat en Physique Quantique</h4>
+                <p>L'effondrement de la fonction d'onde est au cœur de nombreux débats en physique quantique. Les scientifiques ne sont pas tous d'accord sur la façon dont ou pourquoi cela se produit, ou même si cela se produit vraiment de la façon dont on le pense.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/v3eSu9ac7Wk?si=R6aJqrUMAN3IlmQZ" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div class="chapitre" id="quantification">
+                <h3>Quantification de l'énergie :</h3>
+                <h4>Concept de Base</h4>
+                <p>En physique classique, l'énergie, comme celle d'une onde lumineuse, peut varier de manière continue. Cependant, en physique quantique, l'énergie est quantifiée, 
+                    ce qui signifie qu'elle ne peut exister qu'à des niveaux spécifiques, un peu comme les marches d'un escalier.</p>
+                <h4>Exemple de l'Atome d'Hydrogène</h4>
+                <p>L'un des exemples les plus connus de quantification de l'énergie est observé dans les atomes, comme l'atome d'hydrogène. 
+                    Les électrons dans un atome ne peuvent occuper que certaines orbites ou niveaux d'énergie spécifiques.</p>
+                <h4>Transitions Énergétiques</h4>
+                <p>Lorsqu'un électron passe d'un niveau d'énergie à un autre, il absorbe ou émet un quantum d'énergie précis, qui correspond à la différence d'énergie entre ces niveaux.</p>
+                <img src="../imgs/a06bf40d-604e-4c72-ab98-4132b327dc74.png" alt="image représentant les diferents niveau d'énergie d'un atome, ces niveaux ne peuvent avoir que des valeurs précises et ne peut être sur des valeurs intermédiaires">
+                <iframe width="550" height="315" src="https://www.youtube.com/embed/Rj3jTw2DxXQ?si=7WxPZ9xFlLbrRl9X&amp;start=759&end=935" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            
+            <div class="chapitre" id="intrication">
+                <h3>L'intrication :</h3>
+                <p>
+                    Des particules peuvent être intriquées, ce qui signifie que l'état de l'une dépend instantanément de l'état de l'autre,
+                    peu importe la distance qui les sépare. 
+                    Cela défie notre compréhension classique de la causalité et de la séparation dans l'espace. 
+                </p>
+                <h4>Lien Invisible</h4>
+                <p>Imaginez que deux particules, disons deux électrons, sont comme des jumeaux magiques. 
+                    Même si vous les séparez et les emmenez loin l'un de l'autre, ils ont encore une sorte de lien invisible. 
+                    Ce lien est ce que les scientifiques appellent l'intrication.</p>
+                <h4>Comportement Miroir</h4>
+                <p>Si vous changez quelque chose sur l'un des jumeaux (comme son spin, une propriété quantique), l'autre jumeau va instantanément changer de la même manière, 
+                    peu importe la distance qui les sépare. Cela se passe comme si les deux particules communiquaient instantanément, mais sans aucun moyen de communication connu.</p>
+                    <img src="../imgs/etanglement-quantique.jpg" alt="image représentant deux particules qui ont un lien, en réalité ce lien ne peut etre observé mais les experiences montrent qu'il y en a un">
+                <h4>Corrélation Pas Causalité</h4>
+                <p>Il est important de comprendre que cette "communication" instantanée ne signifie pas que l'information voyage plus vite que la lumière (ce qui violerait les lois de la physique). 
+                    C'est plutôt que les deux particules sont si étroitement liées (intriquées) que le changement de l'une affecte instantanément l'autre.</p>
+                <h4>Effet de Mesure</h4>
+                <p>L'intrication est très fragile. Si vous mesurez l'une des particules intriquées, le lien spécial entre elles est brisé. 
+                    C'est ce qu'on appelle l'effondrement de l'état intriqué.</p>
+                <h4>Applications Pratiques</h4>
+                <p>L'intrication a des applications potentielles dans des domaines comme la cryptographie quantique (pour envoyer des informations de manière ultra-sécurisée) 
+                    et les ordinateurs quantiques (pour effectuer des opérations de calcul complexes très rapidement).</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5R6k2mEacZo?si=Mup-R2IrM2YIiahH" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hB1kmGzpIrw?si=yo54hjyJO7r-V_Vy" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/28UN70790Do?si=yaz_RWiuBqumgPFm" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div class="chapitre" id="heisenberg">
+                <h3>L'incertitude de Heisenberg :</h3>
+                <img src="../imgs/735290_poster.jpg" id="heisenberg_img" alt="image humouriqtique représentant heisenberg dans la série, breaking bad">
+                <p>
+                    Le principe d'incertitude stipule qu'il est impossible de connaître avec précision à la fois la position et la vitesse (ou la quantité de mouvement) d'une particule en même temps. 
+                    Plus vous connaissez précisément l'une de ces quantités, moins vous connaissez précisément l'autre.
+                </p>
+                <h4>Principe de Base</h4>
+                <p>Selon ce principe, il est impossible de connaître avec une précision absolue à la fois la position et la vitesse (ou la quantité de mouvement) d'une particule à un instant donné. 
+                    Plus vous êtes précis sur la mesure de l'un, moins vous pouvez être précis sur l'autre.</p>
+                <h4>Un Concept Différent de l'Incertitude Classique</h4>
+                <p>Ce n'est pas simplement une limite de notre capacité à mesurer; 
+                    c'est une propriété fondamentale de l'univers. En physique classique, on peut théoriquement mesurer la position et la vitesse d'un objet avec une précision parfaite. 
+                    Mais en physique quantique, cette incertitude est intrinsèque.</p>
+                <h4>Formulation Mathématique</h4>
+                <img src="../imgs/5525382469_76094b36e4_b.jpg" alt="image représentant la formule mathématique de l'incertitude de Heisenberg">
+                <p>où \(\Delta x\) est l'incertitude sur la position, \(\Delta p\) l'incertitude sur la quantité de mouvement, et \(\hbar\) est la constante de Planck réduite.</p>
+                <h4>Implications</h4>
+                <p>Le simple fait d'observer ou de mesurer la position d'une particule quantique affecte sa vitesse, et vice-versa. 
+                    Cela souligne la différence entre le monde quantique et le monde que nous expérimentons quotidiennement. 
+                    En physique quantique, beaucoup de choses sont déterminées par des probabilités plutôt que par des certitudes. 
+                    Le principe d'incertitude est un reflet de cette nature probabiliste.</p>
+                <h4>Applications et Conséquences</h4>
+                <p>Le principe d'incertitude est essentiel pour comprendre et expliquer des phénomènes comme le comportement des électrons 
+                    dans les atomes et la formation de paires particule-antiparticule dans le vide. Il joue un rôle dans la technologie quantique, 
+                    comme la cryptographie quantique et l'informatique quantique.</p>
+                
+                    <iframe width="550" height="315" src="https://www.youtube.com/embed/Rj3jTw2DxXQ?si=Z1iod6N-LtVcfADI&amp;start=939&end=" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div class="chapitre" id="decoherence">
+                <h3>La décohérence quantique :</h3>
+                <p>
+                    La décohérence quantique est un concept important en physique quantique qui aide à expliquer comment le comportement quantique, souvent étrange et contre-intuitif, 
+                    se traduit dans le monde classique que nous observons tous les jours. On paurait dire que ce concept explique pourquoi nous n'avons jamais vu de chat de Schrödinger</p>
+                    <h4>Superposition et Intrication</h4>
+                    <p>Comme nous l'avons déjà expliquén en physique quantique, les particules peuvent être dans des états de superposition, où elles existent dans plusieurs états à la fois. 
+                        Les particules peuvent également être intriquées, ce qui signifie que l'état de l'une affecte instantanément l'état de l'autre, peu importe la distance qui les sépare.</p>
+                    <h4>Le Monde Quantique vs le Monde Classique</h4>
+                    <p>Ces comportements quantiques ne sont généralement pas observés dans le monde macroscopique (le monde classique) où les objets semblent avoir des positions et des vitesses bien définies. 
+                        La décohérence quantique est le processus par lequel les états quantiques perdent ces propriétés quantiques (comme la superposition et l'intrication) 
+                        lorsqu'ils interagissent avec leur environnement.</p>
+                    <h4>Interaction avec l'Environnement</h4>
+                    <p>Lorsqu'un système quantique interagit avec son environnement (qui est lui-même quantique mais complexe et chaotique), 
+                        les phases des différentes superpositions se mélangent et s'annulent (un processus appelé "interférence destructrice"). 
+                        Cela fait en sorte que le système semble perdre ses propriétés quantiques et se comporte plutôt comme un objet classique.</p>
+                    <h4>Transition du Quantique au Classique</h4>
+                    <p>La décohérence explique comment un système quantique, comme un atome ou un photon, en interagissant avec l'environnement, 
+                        peut passer d'un état de superposition à un état où il semble avoir une position ou un état bien défini. 
+                        C'est ainsi que les phénomènes quantiques donnent lieu à la réalité classique que nous expérimentons.</p>
+                    <h4>Rôle dans la Mécanique Quantique</h4>
+                    <p>La décohérence ne résout pas le problème de la mesure en mécanique quantique (comme l'effondrement de la fonction d'onde), 
+                        mais elle aide à expliquer pourquoi le monde quantique et le monde classique semblent si différents.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1hVm_SyUcwE?si=cNBDyl0GY9X8olTB" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <p class="conclusion">
+                Ces principes de base remettent en question notre compréhension intuitive du monde, 
+                car ils ne correspondent pas à l'expérience quotidienne que nous avons des objets macroscopiques. 
+                La physique quantique est à la base de nombreuses technologies modernes comme les semi-conducteurs, les lasers, 
+                et pourrait révolutionner les domaines de l'informatique et de la communication avec le développement des ordinateurs quantiques.
+            </p>
+            
+        </div>
+        
+        <div class="rubriques" id="theories">
+            <h2>Les théories</h2>
+            <p class="intro">
+                De nombreuses théories en physique, notamment dans le domaine de la physique quantique, 
+                sont constamment élaborées et attendent des expériences futures pour être soit confirmées, soit infirmées, 
+                ouvrant ainsi la voie à une compréhension plus profonde de notre univers.
+            </p>
+            <div class="chapitre" id="cordes">
+                <h3>La théorie des cordes</h3>
+                <p>
+                    La théorie des cordes est une idée en physique théorique qui essaie de décrire toutes les forces fondamentales et les particules élémentaires dans l'univers</p>
+
+                <h4>Des Cordes, Pas des Points</h4>
+                <p>Dans la physique traditionnelle, les particules élémentaires (comme les électrons et les quarks) sont décrites comme des points sans dimension. 
+                    La théorie des cordes, cependant, propose que ces particules ne sont pas des points, mais plutôt de minuscules « cordes » vibrantes.</p>
+                <h4>Vibrations des Cordes</h4>
+                <p>Ces cordes peuvent vibrer à différentes fréquences, un peu comme les cordes d'un violon ou d'une guitare. La façon dont une corde vibre détermine les propriétés de la particule, 
+                    comme sa masse et sa charge. Cela signifie que toutes les différentes particules sont en fait le même type d'objet (une "corde") qui vibre différemment.</p>
+                <h4>Unification des Forces</h4>
+                <p>Un des objectifs principaux de la théorie des cordes est d'unifier la gravité avec les trois autres forces fondamentales de la physique 
+                    (l'électromagnétisme et les forces nucléaires forte et faible). La théorie des cordes semble capable d'incorporer la gravité, 
+                    ce que les autres théories de la physique des particules ne peuvent pas faire aussi facilement.</p>
+                <h4>Dimensions Supplémentaires</h4>
+                <p>Pour que la théorie des cordes fonctionne mathématiquement, elle nécessite plus que les trois dimensions d'espace et une de temps que nous expérimentons dans notre vie quotidienne. 
+                    Selon les versions de la théorie, il pourrait y avoir jusqu'à 10, 11, voire 26 dimensions.</p>
+                <h4>Types de Théories des Cordes</h4>
+                <p>Il existe plusieurs versions de la théorie des cordes, comme la théorie des cordes de type I, II, la théorie des supercordes, et la théorie des cordes hétérotiques. 
+                    Chacune a ses propres particularités.</p>
+                <h4>Défis et Recherches en Cours</h4>
+                <p>La théorie des cordes est encore en développement et fait l'objet de recherches intensives. 
+                    Un des défis majeurs est qu'il est extrêmement difficile de tester expérimentalement les prédictions de la théorie des cordes à l'échelle actuelle de l'énergie disponible 
+                    dans les accélérateurs de particules.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rXhzeKh8yBk?si=nrj3RKQW-lQAnvji" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="chapitre" id="boucles">
+                <h3>La gravité quantique a boucles</h3>
+                <p>
+                    La gravité quantique à boucles est une théorie en physique qui tente de décrire la gravité d'une manière qui est compatible 
+                    avec les principes de la mécanique quantique.
+                </p>
+                <h4>Objectif</h4>
+                <p>La gravité quantique à boucles cherche à unifier la relativité générale d'Einstein, qui décrit la gravité à grande échelle, avec la mécanique quantique, qui décrit le comportement des particules à très petite échelle.</p>
+
+                <h4>Espace-Temps Quantifié</h4>
+                <p>Contrairement à la relativité générale, où l'espace-temps est continu, la gravité quantique à boucles suggère que l'espace-temps est composé de boucles ou de "grains" discrets à l'échelle quantique. Ces boucles sont extrêmement petites, bien au-delà de ce que nous pouvons observer actuellement.</p>
+
+                <h4>Réseaux de Spin</h4>
+                <p>La théorie utilise des structures mathématiques appelées "réseaux de spin" pour décrire ces grains d'espace-temps. Chaque boucle dans le réseau représente une quantité quantique de volume ou d'aire.</p>
+
+                <h4>Gravité Quantique</h4>
+                <p>Dans cette théorie, la gravité est le résultat de la dynamique de ces boucles d'espace-temps. Cela diffère de la relativité générale, où la gravité est due à la courbure de l'espace-temps causée par la masse et l'énergie.</p>
+
+                <h4>Avantages</h4>
+                <p>L'un des avantages majeurs de la gravité quantique à boucles est qu'elle évite certains problèmes mathématiques (comme les singularités infinies) présents dans d'autres approches de la gravité quantique.</p>
+
+                <h4>Défis et Recherches en Cours</h4>
+                <p>La théorie est encore en développement et fait l'objet de recherches actives. Un grand défi est de trouver des moyens de tester expérimentalement les prédictions de la théorie, car les échelles auxquelles elle s'applique sont extrêmement petites.</p>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3MJJvXGuDag?si=FSkff8kuyg4QUQQi" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="rubriques" id="enjeux">
+            <div class="chapitre" id="comprehensionFondamentale">
+                <h2>Voyons à quoi peut servir la physique quantique :</h2>
+                <h3>Compréhension Fondamentale de la Matière et de l'Énergie</h3>
+                <p>Elle explique le comportement et les interactions de la matière et de l'énergie à des échelles très petites, où les lois de la physique classique ne sont plus applicables.</p>
+                <img src="../imgs/1314215-Les_composants_de_la_matière.jpg" alt="image représentant la matière a différentes échelles, allant d'un morceua de pierre au quark">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/KIGfevsoS8Q?si=qg1pc0yePTwMN9rx" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            
+            <div class="chapitre" id="techno">
+                <h3>Technologies de l'Information Quantique et Ordinateurs Quantiques</h3>
+                <p>La physique quantique a mené au développement de l'ordinateur quantique, qui utilise les états quantiques des particules pour effectuer des calculs à une vitesse potentiellement bien supérieure à celle des ordinateurs classiques. Imaginez un ordinateur super-puissant qui peut résoudre des problèmes très compliqués très rapidement.</p>
+                <img src="../imgs/A_Inria_ordinateur_quantique_1826x1214.jpg" alt="image représentant un ordinateur quantique">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bayTbt_8aNc?si=1a49wK8Nr1s6nx0-" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/KaRd_eB2qOA?si=ZbFK2Hj_yDSjmw4p" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p> L'évolution des ordinateurs quantique devrait pouvoir permettre d'accélérer considérablement de nombeux calcules, on peut par exemple observer cela avec le décryptages de mot de passes. 
+                    D'après l'hypothèse théorique de l'algorithme de Grover, l'utilisation des ordinateurs quantiques, pourrait réduire le temps nécessaire pour casser un cryptage par force brute d'un facteur 
+                    de racine carrée.Cette méthode reste purement spéculative mais vise à illustrer le potentiel de réduction du temps de décryptage avec la technologie quantique. </p>
+                <p> Le tableau suivant représente le temps qui serait nécéssaire au décryptage avec un ordinateur classique en fonction du nombre de caractères, en comparaison avec un ordinateur quantique</p>
+                <table id="tableauDecryptage">
+                    <tr>
+                        <th>Nombre de caractères</th>
+                        <th>Ordinateur classique</th>
+                        <th>Ordinateur quantique</th>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td class="c1">Instantané</td>
+                        <td class="c1">Instantané</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td class="c1">Instantané</td>
+                        <td class="c1">Instantané</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td class="c1">5 s</td>
+                        <td class="c1">Instantané</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td class="c1">6 mn</td>
+                        <td class="c1">Instantané</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td class="c1">8 heures</td>
+                        <td class="c1">1 heure</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td class="c2">3 semaines</td>
+                        <td class="c2">2 jours</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td class="c3">5 années</td>
+                        <td class="c2">8 mois</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td class="c4">400 années</td>
+                        <td class="c3">20 années</td>
+                    </tr>
+                     <tr>
+                        <td>12</td>
+                        <td class="c4">34k années</td>
+                        <td class="c3">200 années</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td class="c4">2m années</td>
+                        <td class="c4">14k années</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td class="c5">200m années</td>
+                        <td class="c4">400k années</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td class="c5">15bn années</td>
+                        <td class="c4">20m années</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td class="c6">1tn années</td>
+                        <td class="c5">1.4bn années</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td class="c6">93tn années</td>
+                        <td class="c5">12bn années</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td class="c7">7 qd années</td>
+                        <td class="c5">84bn années</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="chapitre" id="crypto">
+                <h3>Cryptographie Quantique</h3>
+                <p>Elle permet le développement de systèmes de cryptographie pratiquement inviolables en utilisant les principes de l'intrication quantique et de la superposition.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YWPqf2GEjMs?si=9fhjJokKEzraLaDB&amp;start=751" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <img src="../imgs/en-route-pour-la-cryptograp1.jpg" alt="image représentant un encien outil de cryptage">
+            </div>
+
+            <div class="chapitre" id="imagerie">
+                <h3>Imagerie Médicale et Mesures de Haute Précision</h3>
+                <p>Des techniques comme la tomographie par résonance magnétique (IRM) et d'autres méthodes d'imagerie médicale reposent sur les principes quantiques. Ces technologies sont essentielles pour des mesures et des diagnostics très précis.</p>
+                <img src="../imgs/irm-annecy-1539618482.jpg" alt="image représeantant une IRM">
+            </div>
+
+            <div class="chapitre" id="nanotech">
+                <h3>Nanotechnologie</h3>
+                <p>La compréhension des phénomènes quantiques est essentielle pour concevoir et fabriquer des dispositifs à l'échelle nanométrique, qui ont des applications dans divers domaines, de la médecine aux matériaux.</p>
+                <img src="../imgs/nanotechnology2.jpg" alt="image représentant une technologie de très petite taille">
+            </div>
+
+            <div class="chapitre" id="energie">
+                <h3>Énergie et Matériaux</h3>
+                <p>La recherche sur les cellules solaires, les matériaux supraconducteurs et d'autres technologies énergétiques avancées s'appuie sur la compréhension des propriétés quantiques.</p>
+                <img src="../imgs/photo-1508514177221-188b1cf16e9d.jpg" alt="image représentant des paneaux solaires alignés">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mFilSnstW8U?si=wlvZPGEX_y_YdurK&amp;start=1" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+            </div>
+            
+            <div class="chapitre" id="chimie">
+                <h3>Chimie Quantique</h3>
+                <p>Les chimistes utilisent la théorie quantique pour comprendre et prédire les structures chimiques, les liaisons et les réactions.</p>
+                <img src="../imgs/XVM47fda6e8-0aad-11ea-a553-007f373e0233.webp" alt="image représentant des chimistes avec une référence a breaking bad">
+            </div>
+            
+
+            <div class="chapitre" id="univers">
+                <h3>Compréhension de l'Univers</h3>
+                <p>La physique quantique joue un rôle dans l'explication de phénomènes astrophysiques et en cosmologie, y compris la nature des trous noirs et la structure de l'univers aux premiers instants après le Big Bang.</p>
+                <img src="../imgs/skynews-hubble-space-telescope_5832030.jpg" alt="magnifique image prise par le telescope huble afin de représenter l'univers">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/EmfvKXO5DZk?si=977Nx-hUmVNDACEr" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            </div>
+            
+        </div>
+        <!--  
+        <div class="rubriques">
+            <h3>Non-localité quantique :</h3>
+            <P>
+                Ce concept est souvent associé à l'intrication quantique. 
+                Il décrit comment des particules intriquées semblent instantanément affecter l'état l'une de l'autre, 
+                quelle que soit la distance les séparant, sans aucun signal ou interaction connue qui les relie, 
+                ce qui remet en question notre compréhension de la causalité et du temps.
+            </P>
+            <p>
+                <ul>
+                    <b>Principe :</b>
+                    La non-localité se manifeste dans les expériences de type EPR (Einstein-Podolsky-Rosen) et est décrite mathématiquement par le théorème de Bell.
+                </ul>
+                
+                <ul>
+                    <b>Formule associée :</b>
+                    Les inégalités de Bell, 
+                    qui mettent en évidence la différence entre les prédictions de la mécanique quantique et de la théorie classique locale.
+                </ul>
+            </p>
+            <img src="../imgs" >>
+
+
+
+            <h3>Théorie de la mesure :</h3>
+            <p>
+                Ce domaine tente de résoudre le problème de la mesure en physique quantique, 
+                notamment comment et pourquoi l'effondrement de la fonction d'onde se produit lors d'une mesure.
+            </p>
+            <p>
+                <ul>
+                    <b>Principe :</b>
+                    La théorie de la mesure en physique quantique cherche à expliquer comment une superposition d'états conduit à un résultat unique lors d'une mesure.
+                </ul>
+                <ul>
+                    <b>Concept clé :</b>
+                    L'effondrement de la fonction d'onde, 
+                    souvent représenté par l'opérateur de mesure \(\hat{M}\) agissant sur un état quantique.
+                </ul>
+            </p>
+            <img src="../imgs" >>
+
+            <h3>Théorie des champs quantiques :</h3>
+            <p>
+                C'est l'application des principes de la physique quantique aux champs plutôt qu'aux particules seules, 
+                unifiant la mécanique quantique et la théorie de la relativité restreinte. Cela est essentiel pour la description des interactions fondamentales, 
+                comme l'électromagnétisme (QED) et la force nucléaire forte (QCD).
+            </p>
+            <p>
+                <ul>
+                    <b>Principe :</b>
+                    La théorie des champs quantiques combine la mécanique quantique et la relativité restreinte pour étudier les champs et leurs interactions.
+                </ul>
+                <ul>
+                    <b>Formule clé :</b>
+                    L'équation de Dirac pour les fermions et l'équation de Klein-Gordon pour les bosons.
+                </ul>
+            </p>
+            <img src="../imgs" >>
+            
+            <h3>Gravité quantique :</h3>
+            <p>
+                C'est un domaine de recherche qui vise à formuler une théorie qui intègre la gravité dans le cadre quantique, 
+                car la relativité générale d'Einstein, qui décrit la gravitation, est une théorie classique. 
+                Les approches incluent la théorie des cordes et la gravité quantique à boucles.
+            </p>
+            <p>
+                <ul>
+                    <b>Principe :</b>
+                    La recherche d'une théorie unifiant la relativité générale et la mécanique quantique pour la gravité quantique.
+                </ul>
+                <ul>
+                    <b>Approches :</b>
+                    Théorie des cordes, gravité quantique à boucles, etc.
+                </ul>
+            </p>
+            <img src="../imgs" >>
+
+            <h3>Information quantique :</h3>
+            <p>
+                Ce domaine explore les implications de la physique quantique pour le traitement et la transmission de l'information. 
+                Il englobe des concepts comme la téléportation quantique, 
+                la cryptographie quantique et les algorithmes quantiques.
+            </p>
+            <p>
+                <ul>
+                    <b>Principe :</b>
+                    Utilisation des propriétés quantiques pour le traitement de l'information dans le domaine de l'information quantique.
+                </ul>
+                <ul>
+                    <b>Concepts clés :</b>
+                    Superposition, intrication, et théorème de non-clonage quantique.
+                </ul>
+            </p>
+            <img src="../imgs" >>
+
+            <h3>États liés :</h3>
+            <p>
+                La compréhension des états liés dans les puits de potentiel quantiques, 
+                qui peuvent conduire à des phénomènes tels que le confinement des quarks dans les hadrons.
+            </p>
+            <p>
+                <ul>
+                    <b>Principe :</b>
+                    Étude des particules confinées dans un potentiel quantique pour les états liés.
+                </ul>
+                <ul>
+                    <b>Formule :</b>
+                    Équation de Schrödinger avec potentiel confinant, par exemple, le puits de potentiel quantique.
+                </ul>
+            </p>
+            <img src="../imgs" >>
+
+            <h3>Condensats de Bose-Einstein :</h3>
+            <p>
+                Un état de la matière formé par des bosons refroidis à des températures très proches du zéro absolu, 
+                où ils occupent le même état quantique le plus bas, 
+                conduisant à des propriétés macroscopiques quantiques.
+            </p>
+            <p>
+                <ul>
+                    <b>Principe :</b>
+                    État de la matière formé à très basses températures où les bosons occupent le même état quantique pour les Condensats de Bose-Einstein.
+                </ul>
+                <ul>
+                    <b>Formule :</b>
+                    Condensation de Bose-Einstein dans un gaz idéal de bosons.
+                </ul>
+            </p>
+            <img src="../imgs" >>
+
+            <h3>Énergie du vide et fluctuations quantiques :</h3>
+            <p>
+                L'étude de l'énergie présente dans le vide à cause des fluctuations quantiques, 
+                qui a des implications pour la cosmologie et la constante cosmologique.
+            </p>
+            <p>
+                <ul>
+                    <b>Principe :</b>
+                    Énergie présente dans le vide à cause des fluctuations quantiques, concernant l'énergie du vide et les fluctuations quantiques.
+                </ul>
+                <ul>
+                    <b>Concept clé :</b>
+                    Effet Casimir, une manifestation des fluctuations du vide.
+                </ul>
+            </p>
+            <img src="../imgs" >>
+
+            <p>
+                Ces sujets ne sont que la pointe de l'iceberg en matière de complexité dans la physique quantique, 
+                et chacun d'entre eux est un domaine de recherche actif qui pourrait potentiellement mener à de nouvelles découvertes et technologies révolutionnaires.
+            </p>
+        </div>
+        -->
+    </main>
+    
+    <footer>
+        <form action="#" method="post">
+            <input type="email" name="email" placeholder="Votre email">
+            <textarea name="message" placeholder="Votre message"></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </footer>
+</body>
+</html>

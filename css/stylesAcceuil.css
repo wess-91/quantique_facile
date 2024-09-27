@@ -1,0 +1,119 @@
+body {
+    background-image: url('../imgs/backgroudPrincipalPage.png') ;
+}
+body, h1, h2, ul, form {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4A6DD9;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+}
+
+.rubriques {
+    padding: 2rem;
+    border-radius: 15px;
+    margin: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rubriques:nth-child(1){
+    background-color: #6D99F2;
+}
+.rubriques:nth-child(2){ 
+    background-color: #2F4C73;
+    color: white;
+}
+.rubriques:nth-child(3){
+    background-color: #85BFF2;
+}
+
+footer {
+    background-color: #0D0D0D;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 90%;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+}
+
+form button {
+    background-color: #6D99F2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input, form textarea {
+    border: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+iframe{
+    width: 500px;
+}
+
+img, iframe { 
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#physique_btn{
+    border-radius: 5px;
+    background-color: #d9e9f8;
+}
+
+#logo{
+    width:15%;
+    float: left;
+}
+
+h1 {
+    color:#c0dfbc;
+    text-shadow: 0px 0px 15px black;
+    font-size: 50px;
+}
+h2 {
+    color:#94c58d;
+    text-shadow: 0px 0px 15px black;
+    font-size: 40px;
+}
